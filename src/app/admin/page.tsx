@@ -84,7 +84,7 @@ type DashboardCardProps = {
     body: string;
 }
 
-export function DashboardCard({title, subtitle, body}: DashboardCardProps) {
+function DashboardCard({title, subtitle, body}: DashboardCardProps) {
     return (
         <Card>
             <CardHeader>
